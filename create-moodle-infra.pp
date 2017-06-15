@@ -52,7 +52,7 @@ ec2_securitygroup { 'example-moodle-web-sg':
   },{
     protocol => 'tcp',
     port     => 22,
-    cidr     => '193.1.228.0/24'
+    cidr     => '192.172.10.0/24'
   }],
 }
 
